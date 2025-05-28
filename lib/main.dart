@@ -7,7 +7,6 @@ import 'package:geolocator/geolocator.dart';
 import 'package:share_plus/share_plus.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-// *** LOGIN INIZIO *** //
 void main() {
   runApp(const PopPathApp());
 }
@@ -146,7 +145,6 @@ class _LoginPageState extends State<LoginPage> {
     );
   }
 }
-// *** LOGIN FINE *** //
 
 // PathData class
 class PathData {
